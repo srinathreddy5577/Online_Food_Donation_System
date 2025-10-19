@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiver Dashboard - Food Donation Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">FoodShare</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="#" id="logout-link">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <div class="container dashboard">
+        <div class="dashboard-header">
+            <h2 class="dashboard-title">Receiver Dashboard</h2>
+            <span id="receiver-name">Welcome</span>
+        </div>
+        
+        <!-- Search and Filter -->
+        <div class="search-container">
+            <input type="text" id="search-food" placeholder="Search for food items...">
+        </div>
+        
+        <!-- Available Foods List -->
+        <div class="foods-list">
+            <h3>Available Food Items</h3>
+            <div id="foods-container"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Contact us: info@foodshare.org | Phone: (123) 456-7890</p>
+            <p>&copy; 2025 FoodShare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="receiver-dashboard.js"></script>
+</body>
+</html>
